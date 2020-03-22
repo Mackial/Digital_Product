@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/grid.css">
+   <link rel="stylesheet" href="css/estilo.css">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/mobile.css">
+   <link rel="stylesheet" href="css/animation.css">
+   <title>Brand</title>
+</head>
+<body>
+   <nav class="fadeInDown">
+      <div class="brand_image">
+         <img src="img/logo.png" alt="LogoBrand">
+      </div>
+      <div class="nav_options">
+         <ul>
+            <li><a href="#">Faqs</a></li>
+            <li><a href="product.html">Producto y Descricion</a></li>
+         </ul>
+      </div>
+   </nav>
+
+   <div class="row pago">
+      <div class="col-4">
+         <div class="modulo-pago">
+            <div class="modulo-pago-img">
+               <img src="img/box1.png" alt="">
+            </div>
+            <h1>Product 1</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore impedit odit voluptates quia modi quaerat in perspiciatis sequi.</p>
+         </div>
+      </div>
+      <div class="col-8">
+         <div class="modulo-pago">
+            <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YBRWNE39RK8S2" method="POST">
+               <label for="name">Nombre</label>
+               <input type="text" name="name" class="data">
+               <br>
+               <label for="mail">E-mail</label>
+               <input type="text" name="email" class="data">
+               <br>
+               <label for="phone">Phone</label>
+               <input type="text" name="phone" class="data">
+               <br>
+               <input type="submit" name="los" id="" class="main_button" name="submit">
+
+            </form>
+         </div>
+      </div>
+   </div>
+   
+   <footer>
+      <div class="footer_content">
+         <h4>Terminos y condiciones</h4>
+         <h4>contacto@mail.com</h4>
+      </div>
+   </footer>
+
+   <script src="js/script.js"></script>
+</body>
+</html>

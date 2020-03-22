@@ -1,0 +1,56 @@
+/* Animacion de la primer titulo parrafo, animacion con opacidad */
+
+.inFade {
+   animation-duration: 4s;
+   -webkit-animation-duration: 4s;
+   animation-fill-mode: both;
+   animation-name: inFade;
+}
+
+@keyframes inFade {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+/* Animacion sale de arriba para el header */
+
+.fadeInDown {
+   animation-duration: 1s;
+   animation-fill-mode: both;
+   animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+   from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+   }
+   to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+      
+   }
+}
+.fadeInUp {
+   animation-duration: 1s;
+   animation-fill-mode: both;
+   animation-name: fadeInUp;
+}
+
+/* Animacion sale de abajo para los productos */
+
+@keyframes fadeInUp {
+   from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+   }
+   to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+      
+   }
+}
